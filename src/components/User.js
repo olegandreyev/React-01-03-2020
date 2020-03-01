@@ -9,7 +9,6 @@ class User extends Component {
             <div className={classes.user} style={styles}>
                 <div></div>
                 {name}
-                
                 <button className={styles.removeButton} onClick={() => this.props.onUserRemove(id)}>remove</button>
             </div>
         )
