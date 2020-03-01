@@ -1,0 +1,11 @@
+
+.user {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    max-width: 200px;;
+}
+
+.removeButton {
+    margin-left: 20px;
+}
