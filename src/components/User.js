@@ -6,10 +6,10 @@ class User extends Component {
     render() {
         const { name, id } = this.props.data;
         return (
-            <div className={classes.user} style={styles}>
+            <div className={classes.user}>
                 <div></div>
                 {name}
-                <button className={styles.removeButton} onClick={() => this.props.onUserRemove(id)}>remove</button>
+                <button className={classes.removeButton} onClick={() => this.props.onUserRemove(id)}>remove</button>
             </div>
         )
     }
